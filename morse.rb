@@ -17,7 +17,6 @@ def decode_word(word)
   result = ''
 
   split_word.each { |char| result += decode_char(char) }
-
   result
 end
 
